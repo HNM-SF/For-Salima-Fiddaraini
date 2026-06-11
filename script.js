@@ -21,7 +21,7 @@ Aku suka sama segala yang ada dalam diri kamu,
 termasuk nama kamu.
 
 Salima fiddaraini,
-Di umur kamu yang baru menginjak ke-21 ini sayang, aku mendapatkan suatu hal baru yang hangat bagi aku, semestinya orang lain juga ikut merasakannya, dan jika kamu belum tau, semoga ini menjadi hal yang manis bagi kamu.
+Di umur kamu yang baru menginjak ke-21 ini sayang, aku mendapatkan suatu hal baru yang hangat dari kamu, semestinya orang lain juga ikut merasakannya, dan jika kamu belum tau, semoga ini menjadi hal yang manis bagi kamu.
 
 Salima fiddaraini yang biasa kamu singkat Sf sayangg, aku menganggap bahwa ini adalah hal yang hangat bagi aku, menurutku (aku gambarkan dalam puisi);
 
