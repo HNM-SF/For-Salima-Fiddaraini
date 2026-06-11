@@ -47,6 +47,17 @@ const closing = document.getElementById("closing");
 
 button.addEventListener("click", () => {
 
+     if (music) {
+        music.play().catch(err => {
+            console.log("Music Error:", err);
+        });
+    }
+
+    document.querySelector(".hero").style.display = "none";
+
+    ...
+});
+
     document.querySelector(".hero").style.display = "none";
 
     content.classList.remove("hidden");
