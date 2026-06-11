@@ -44,19 +44,15 @@ const button = document.getElementById("openBtn");
 const content = document.getElementById("content");
 const typedText = document.getElementById("typed-text");
 const closing = document.getElementById("closing");
+const music = document.getElementById("bgMusic");
 
 button.addEventListener("click", () => {
 
-     if (music) {
+    if (music) {
         music.play().catch(err => {
             console.log("Music Error:", err);
         });
     }
-
-    document.querySelector(".hero").style.display = "none";
-
-    ...
-});
 
     document.querySelector(".hero").style.display = "none";
 
