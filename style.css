@@ -284,3 +284,35 @@ rotate(360deg);
 }
 
 }
+
+.photo-card{
+
+position:relative;
+
+max-width:350px;
+margin:80px auto 30px;
+
+background:white;
+
+padding:15px;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.corner-flower{
+
+position:absolute;
+
+top:-40px;
+right:-40px;
+
+width:140px;
+
+z-index:10;
+
+pointer-events:none;
+
+}
