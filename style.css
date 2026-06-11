@@ -1,3 +1,88 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
-    background:white;
+font-family:Arial, sans-serif;
+background:#fdf8ee;
+color:#333;
+overflow-x:hidden;
+}
+
+.hero{
+height:100vh;
+background-image:url("assets/backgrounds/sunflower-soft.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.overlay{
+background:rgba(255,255,255,0.75);
+padding:40px;
+border-radius:25px;
+backdrop-filter:blur(10px);
+}
+
+.flower{
+width:80px;
+animation:float 3s ease-in-out infinite;
+}
+
+.hero h1{
+font-size:3rem;
+margin:20px 0;
+}
+
+.hero p{
+margin-bottom:20px;
+}
+
+button{
+padding:15px 30px;
+border:none;
+border-radius:50px;
+background:#f4c542;
+cursor:pointer;
+font-size:18px;
+}
+
+.hidden{
+display:none;
+}
+
+.photo-card{
+max-width:350px;
+margin:80px auto 30px;
+background:white;
+padding:15px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.photo-card img{
+width:100%;
+border-radius:15px;
+}
+
+.letter{
+max-width:800px;
+margin:auto;
+padding:40px;
+line-height:1.9;
+}
+
+#typed-text{
+white-space:pre-line;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-10px);}
+100%{transform:translateY(0);}
 }
