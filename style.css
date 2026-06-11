@@ -200,3 +200,42 @@ transform:translateY(0);
 }
 
 }
+
+@media (max-width: 768px){
+
+.hero h1{
+font-size:2rem;
+}
+
+.hero p{
+font-size:0.95rem;
+}
+
+.overlay{
+padding:25px;
+margin:20px;
+}
+
+.photo-card{
+width:90%;
+}
+
+.letter{
+padding:20px;
+font-size:0.95rem;
+}
+
+.closing-card{
+padding:25px;
+margin:20px;
+}
+
+.closing-card h1{
+font-size:2rem;
+}
+
+.closing-card h2{
+font-size:1.2rem;
+}
+
+}
