@@ -38,7 +38,7 @@ Untukmu Salima fiddaraini,
 Sun flower adalah nama yang sama untuk menggambarkan kehangatan yang ada dalam dirimu, untuk orang orang di sekitarmu.
 
 Selamat ber21tahun sayangg🤍
-Semoga lebih banyak hal lagi yang membuatmu bahagia di kehidupan ini🌻✨;
+Semoga lebih banyak hal lagi yang membuatmu bahagia di kehidupan ini🌻✨`;
 
 const button = document.getElementById("openBtn");
 const content = document.getElementById("content");
