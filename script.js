@@ -89,3 +89,33 @@ button.addEventListener("click", () => {
     typing();
 
 });
+
+function createPetal(){
+
+const petal = document.createElement("div");
+
+petal.classList.add("petal");
+
+petal.innerHTML = "🌻";
+
+petal.style.left = Math.random() * window.innerWidth + "px";
+
+petal.style.fontSize =
+(20 + Math.random() * 25) + "px";
+
+petal.style.animationDuration =
+(8 + Math.random() * 8) + "s";
+
+document
+.getElementById("petals-container")
+.appendChild(petal);
+
+setTimeout(()=>{
+
+petal.remove();
+
+},16000);
+
+}
+
+setInterval(createPetal,800);
