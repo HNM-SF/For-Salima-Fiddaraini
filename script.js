@@ -47,7 +47,9 @@ const music = document.getElementById("bgMusic");
 
 button.addEventListener("click", () => {
 
-music.play();
+music.play().catch(err => {
+    console.log("Music Error:", err);
+});
 
 document.querySelector(".hero").style.display = "none";
 
