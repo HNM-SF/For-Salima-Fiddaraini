@@ -59,18 +59,44 @@ let i = 0;
 
 function typing(){
 
+function typing(){
+
 if(i < text.length){
 
 typedText.innerHTML += text.charAt(i);
 
 i++;
 
+window.scrollTo({
+
+top:document.body.scrollHeight,
+
+behavior:"smooth"
+
+});
+
 setTimeout(typing,35);
 
 }
 
-}
+else{
 
-typing();
+setTimeout(()=>{
+
+document
+.getElementById("closing")
+.classList.remove("hidden");
+
+document
+.getElementById("closing")
+.scrollIntoView({
+
+behavior:"smooth"
 
 });
+
+},1500);
+
+}
+
+}
