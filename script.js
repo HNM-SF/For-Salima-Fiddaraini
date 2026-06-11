@@ -47,6 +47,8 @@ const music = document.getElementById("bgMusic");
 
 button.addEventListener("click", () => {
 
+music.play();
+
 document.querySelector(".hero").style.display = "none";
 
 content.classList.remove("hidden");
