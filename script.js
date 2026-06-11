@@ -12,7 +12,6 @@ Oke" serius.
 Seriusnya dari sini yaa
 Bacanya pelan pelan aja
 
-
 ---
 
 Sayangg,
@@ -22,9 +21,24 @@ Aku suka sama segala yang ada dalam diri kamu,
 termasuk nama kamu.
 
 Salima fiddaraini,
-Di umur kamu yang baru menginjak ke-21 ini sayang, aku mendapatkan suatu hal baru yang hangat bagi aku...
+Di umur kamu yang baru menginjak ke-21 ini sayang, aku mendapatkan suatu hal baru yang hangat bagi aku, semestinya orang lain juga ikut merasakannya, dan jika kamu belum tau, semoga ini menjadi hal yang manis bagi kamu.
 
-(MASUKKAN SELURUH SURATMU DI SINI TANPA DIUBAH)`;
+Salima fiddaraini yang biasa kamu singkat Sf sayangg, aku menganggap bahwa ini adalah hal yang hangat bagi aku, menurutku (aku gambarkan dalam puisi);
+
+"Setiap hari ada hadirmu
+kamu bagai teman yang selalu ada bagi aku,
+Setiap hari ada cerita" kamu
+kamu bagai sahabat yang memberikan makna bagi aku,
+Kerap kali kubayangkan kamu adalah pacarku, ternyata kamu lebih dari kata pacar itu sendiri.
+Kamu, adalah masa depan yang aku nanti atas kehangatan² yang kamu beri."
+
+Maka dari itu,
+
+Untukmu Salima fiddaraini,
+Sun flower adalah nama yang sama untuk menggambarkan kehangatan yang ada dalam dirimu, untuk orang orang di sekitarmu.
+
+Selamat ber21tahun sayangg🤍
+Semoga lebih banyak hal lagi yang membuatmu bahagia di kehidupan ini🌻✨;
 
 const button = document.getElementById("openBtn");
 const content = document.getElementById("content");
