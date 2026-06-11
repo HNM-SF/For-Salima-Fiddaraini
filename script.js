@@ -43,60 +43,42 @@ Semoga lebih banyak hal lagi yang membuatmu bahagia di kehidupan ini🌻✨`;
 const button = document.getElementById("openBtn");
 const content = document.getElementById("content");
 const typedText = document.getElementById("typed-text");
-const music = document.getElementById("bgMusic");
+const closing = document.getElementById("closing");
 
 button.addEventListener("click", () => {
 
-music.play().catch(err => {
-    console.log("Music Error:", err);
-});
+    document.querySelector(".hero").style.display = "none";
 
-document.querySelector(".hero").style.display = "none";
+    content.classList.remove("hidden");
 
-content.classList.remove("hidden");
+    let i = 0;
 
-let i = 0;
+    function typing() {
 
-function typing(){
+        if (i < text.length) {
 
-function typing(){
+            typedText.innerHTML += text.charAt(i);
 
-if(i < text.length){
+            i++;
 
-typedText.innerHTML += text.charAt(i);
+            setTimeout(typing, 35);
 
-i++;
+        } else {
 
-window.scrollTo({
+            setTimeout(() => {
 
-top:document.body.scrollHeight,
+                closing.classList.remove("hidden");
 
-behavior:"smooth"
+                closing.scrollIntoView({
+                    behavior: "smooth"
+                });
 
-});
+            }, 1500);
 
-setTimeout(typing,35);
+        }
 
-}
+    }
 
-else{
-
-setTimeout(()=>{
-
-document
-.getElementById("closing")
-.classList.remove("hidden");
-
-document
-.getElementById("closing")
-.scrollIntoView({
-
-behavior:"smooth"
+    typing();
 
 });
-
-},1500);
-
-}
-
-}
