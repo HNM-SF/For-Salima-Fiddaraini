@@ -43,6 +43,7 @@ Semoga lebih banyak hal lagi yang membuatmu bahagia di kehidupan ini🌻✨`;
 const button = document.getElementById("openBtn");
 const content = document.getElementById("content");
 const typedText = document.getElementById("typed-text");
+const music = document.getElementById("bgMusic");
 
 button.addEventListener("click", () => {
 
