@@ -1,5 +1,5 @@
-const text = `Cepatnyaa sudah 21 aja sayangg xixii
-Selamat ulang tahun yang ke 21 ini sayangg🌻✨
+const text = `Cepatnyaa sudah 22 aja sayangg xixii
+Selamat ulang tahun yang ke 22 ini sayangg🌻✨
 
 Sedikit cerita sayang,
 Nama kamu indah tau sayang, beneran.
@@ -21,7 +21,7 @@ Aku suka sama segala yang ada dalam diri kamu,
 termasuk nama kamu.
 
 Salima fiddaraini,
-Di umur kamu yang baru menginjak ke-21 ini sayang, aku mendapatkan suatu hal baru yang hangat dari kamu, semestinya orang lain juga ikut merasakannya, dan jika kamu belum tau, semoga ini menjadi hal yang manis bagi kamu.
+Di umur kamu yang baru menginjak ke-22 ini sayang, aku mendapatkan suatu hal baru yang hangat dari kamu, semestinya orang lain juga ikut merasakannya, dan jika kamu belum tau, semoga ini menjadi hal yang manis bagi kamu.
 
 Salima fiddaraini yang biasa kamu singkat Sf sayangg, aku menganggap bahwa ini adalah hal yang hangat bagi aku, menurutku (aku gambarkan dalam puisi);
 
@@ -37,7 +37,7 @@ Maka dari itu,
 Untukmu Salima fiddaraini,
 Sun flower adalah nama yang sama untuk menggambarkan kehangatan yang ada dalam dirimu, untuk orang orang di sekitarmu.
 
-Selamat ber21tahun sayangg🤍
+Selamat ber22tahun sayangg🤍
 Semoga lebih banyak hal lagi yang membuatmu bahagia di kehidupan ini🌻✨`;
 
 const button = document.getElementById("openBtn");
